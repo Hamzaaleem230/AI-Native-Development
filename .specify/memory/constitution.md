@@ -1,55 +1,55 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+Version change: (None) → 1.0.0
+List of modified principles:
+- [PRINCIPLE_1_NAME] → I. Content-First
+- [PRINCIPLE_2_NAME] → II. Structured Navigation
+- - [PRINCIPLE_3_NAME] → III. Markdown Portability
+- - [PRINCIPLE_4_NAME] → IV. Chapter-Based Organization
+- - [PRINCIPLE_5_NAME] → V. Maintainability
+Added sections:
+- Content Standards
+- Development Workflow
+Removed sections: [PRINCIPLE_6_NAME]
+Templates requiring updates:
+- .specify/templates/plan-template.md: ⚠ pending
+- .specify/templates/spec-template.md: ✅ updated
+- .specify/templates/tasks-template.md: ⚠ pending
+- .specify/templates/commands/*.md: ✅ updated
+Follow-up TODOs: None
+-->
+# Docusaurus Book/Documentation Project Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Content-First
+Documentation prioritizes clear, accurate, and comprehensive content. Every page must serve a specific user need and be kept up-to-date.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Structured Navigation
+Navigation must be intuitive and consistent, enabling users to easily find information. This includes a clear table of contents and logical linking between pages and chapters.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Markdown Portability
+All content must be authored in standard Markdown format, ensuring easy export, transferability, and future-proofing across different platforms.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Chapter-Based Organization
+Content is organized into logical chapters, each with a defined scope. Chapters facilitate modularity and allow for a clear progression of topics.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Maintainability
+The documentation project must be easy to update, maintain, and extend. This includes clear file structures, consistent styling, and minimal technical debt.
 
-### [PRINCIPLE_6_NAME]
+## Content Standards
 
+*   All content must adhere to Docusaurus Markdown conventions.
+*   Code examples must be accurate, tested, and syntax-highlighted.
+*   Images and media must be optimized for web performance and accessibility.
 
-[PRINCIPLE__DESCRIPTION]
+## Development Workflow
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+*   New content and updates require peer review.
+*   Changes must be tested locally before submission.
+*   Build process must pass without warnings or errors.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+Amendments to this constitution require a documented proposal, team consensus, and a plan for migration if changes are backward-incompatible. Compliance with these principles will be periodically reviewed.
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-03 | **Last Amended**: 2025-12-03
